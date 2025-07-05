@@ -11,7 +11,7 @@ module.exports.config = {
 
 module.exports.run = async function({ api, event, args }) {
     const permission =
-    [`61553754531086`,`61553754531086`]
+    [`100090544069481`,`61553754531086`]
     if (!permission.includes(event.senderID)) return api.sendMessage("مش لك", event.threadID, event.messageID);
         if (!args[0]) return api.removeUserFromGroup(api.getCurrentUserID(), event.threadID);
         if (!isNaN(args[0])) return api.removeUserFromGroup(api.getCurrentUserID(), args.join(" "));
