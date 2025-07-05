@@ -2,7 +2,7 @@ const axios = require('axios');
 
 module.exports = {
   config: {
-    name: "نازي",
+    name: "اوتشيها",
     version: "1.0",
     hasPermssion: 0,
     credits: "Rako San ",
